@@ -1,0 +1,17 @@
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\AucioNUS.Domain.dll.config
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\AucioNUS.Domain.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\AucioNUS.Domain.pdb
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\EntityFramework.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\Microsoft.Web.Infrastructure.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\Ninject.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\WebActivator.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\EntityFramework.xml
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\Ninject.pdb
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Release\Ninject.xml
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Release\AuctioNUS.Domain.csprojResolveAssemblyReference.cache
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Release\AucioNUS.Domain.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Release\AucioNUS.Domain.pdb
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Release\AuctioNUS.Domain.Migrations.Initial.resources
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Release\AuctioNUS.Domain.csproj.GenerateResource.Cache
+C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Release\AuctioNUS.Domain.Migrations.mig2.resources
+C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Release\AuctioNUS.Domain.Migrations.mig3.resources

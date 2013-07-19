@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctioNUS.WebUI", "..\AuctioNUS\AuctioNUS.WebUI\AuctioNUS.WebUI.csproj", "{333815B9-B012-4C1A-A9EC-DE179F958E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctioNUS.Domain", "AucioNUS.Domain\AuctioNUS.Domain.csproj", "{D7020564-8F52-4741-9804-CD1F9BE5A9C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{333815B9-B012-4C1A-A9EC-DE179F958E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333815B9-B012-4C1A-A9EC-DE179F958E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333815B9-B012-4C1A-A9EC-DE179F958E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333815B9-B012-4C1A-A9EC-DE179F958E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7020564-8F52-4741-9804-CD1F9BE5A9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7020564-8F52-4741-9804-CD1F9BE5A9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7020564-8F52-4741-9804-CD1F9BE5A9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7020564-8F52-4741-9804-CD1F9BE5A9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Debug\AucioNUS.Domain.dll.config
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Debug\AucioNUS.Domain.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Debug\AucioNUS.Domain.pdb
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Debug\EntityFramework.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\bin\Debug\EntityFramework.xml
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AucioNUS.Domain.csprojResolveAssemblyReference.cache
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AucioNUS.Domain.dll
+c:\users\abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AucioNUS.Domain.pdb
