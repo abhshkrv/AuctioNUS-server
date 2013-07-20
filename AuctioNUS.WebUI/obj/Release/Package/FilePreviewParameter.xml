@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="auctioNUS-final" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Abhshkrv\\documents\\visual\ studio\ 2012\\Projects\\AuctioNUS\\AuctioNUS\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Abhshkrv\\documents\\visual\ studio\ 2012\\Projects\\AuctioNUS\\AuctioNUS\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:qmnup49lkk.database.windows.net,1433;Initial Catalog=auctioNUSCSHARP;User ID=abhshkrv@qmnup49lkk;Password=3x2E#ug9" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Abhshkrv\\documents\\visual\ studio\ 2012\\Projects\\AuctioNUS\\AuctioNUS\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="EFDbContext-Web.config Connection String" description="" value="Data Source=tcp:gwolupxvka.database.windows.net,1433;Initial Catalog=auctioNUSusers-final_db;User ID=abhshkrv@gwolupxvka;Password=3x2E#ug9" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Abhshkrv\\documents\\visual\ studio\ 2012\\Projects\\AuctioNUS\\AuctioNUS\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EFDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="StorageConnection-Web.config Connection String" description="StorageConnection Connection String used in web.config by the application to access the database." value="DefaultEndpointsProtocol=https;AccountName=auctionusstorage;AccountKey=rcNhhZNS5IJ1TADhLZcRibuTAIbKjXMmop+9EqfgmxxO9MS+sU/E7UBe3UH0Y111p2WCwOkwt6QLqWo8hnmL9Q==" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Abhshkrv\\documents\\visual\ studio\ 2012\\Projects\\AuctioNUS\\AuctioNUS\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StorageConnection']/@connectionString" />
+  </parameter>
+</parameters>

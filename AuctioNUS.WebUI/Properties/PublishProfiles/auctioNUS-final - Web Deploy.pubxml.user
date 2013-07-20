@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP2K5f6+d80q2bgjPu0IJ1gAAAAACAAAAAAAQZgAAAAEAACAAAACxjI1j8L2XqSeM3XxiUBngb+TtW3BDfy7mRqDpl1g7IAAAAAAOgAAAAAIAACAAAAD7hPYUTzx7K7ePhAYL/U5G8s7hfdTSfmlPKGPOrKdR4oAAAAAGt1A0OUEfOKdQ3fZcwCwNlGjPafW7z380QYRte1RVDNQYMVvIJ+pDEOb5b5sPya4IKeCzFoMfzXWr8Fj1PIZl/d3XOLzgAHP7gU0re1ui4fa8RuY8O2rWH49/UEv014lP95TuvsdL7uTj6sqfteHatJr3eiGL442ppdVFCJm3z0AAAAB0S1c+Pc9JREBy22mj/N3A5ENTxgCqI1fLoET7gHM5e8erlGL6SXfyFHJpFS0z9ve3j6wegJ4FlFNRknWoO38c</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:gwolupxvka.database.windows.net,1433;Initial Catalog=auctioNUSusers-final_db;User ID=abhshkrv@gwolupxvka;Password=3x2E#ug9" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:qmnup49lkk.database.windows.net,1433;Initial Catalog=auctioNUSCSHARP;User ID=abhshkrv@qmnup49lkk;Password=3x2E#ug9" />
+  </ItemGroup>
+</Project>
