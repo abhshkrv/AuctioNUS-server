@@ -12,5 +12,6 @@ namespace AuctioNUS.Domain.Entities
         public string email { get; set; }
         public string phoneNo { get; set; }
         public bool phoneNumberVisibility { get; set; }
+        public string deviceID { get; set; }
     }
 }

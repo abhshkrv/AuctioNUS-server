@@ -25,3 +25,5 @@ C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS\AuctioNUS.WebU
 C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS\AuctioNUS.WebUI\obj\Debug\AuctioNUS.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS\AuctioNUS.WebUI\obj\Debug\AuctioNUS.WebUI.dll
 C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS\AuctioNUS.WebUI\obj\Debug\AuctioNUS.WebUI.pdb
+C:\Users\Abhshkrv\documents\visual studio 2012\Projects\AuctioNUS\AuctioNUS.WebUI\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\Abhshkrv\documents\visual studio 2012\Projects\AuctioNUS\AuctioNUS.WebUI\bin\Microsoft.WindowsAzure.StorageClient.xml

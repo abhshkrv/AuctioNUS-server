@@ -2,6 +2,7 @@
 using AuctioNUS.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -32,6 +33,17 @@ namespace AuctioNUS.Domain.Concrete
                 context.Deals.Add(deal);
                 context.SaveChanges();
             }
+            else
+            {
+                context.Entry(deal).State = EntityState.Modified;
+                context.SaveChanges();
+            }
+        }
+
+        public void deleteDeal(Deal deal)
+        {
+            context.Deals.Remove(deal);
+            context.SaveChanges();
         }
     }
 

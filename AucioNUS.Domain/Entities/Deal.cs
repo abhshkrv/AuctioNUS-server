@@ -15,6 +15,7 @@ namespace AuctioNUS.Domain.Entities
         public string ISBN { get; set; }
         public DateTime closingDate { get; set; }
         public float price { get; set; }
+        public int topBid { get; set; }
         public string imgUrl { get; set; }
     }
 }

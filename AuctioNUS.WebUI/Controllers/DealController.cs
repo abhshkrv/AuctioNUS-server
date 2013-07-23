@@ -10,6 +10,8 @@ using System.IO;
 using Microsoft.WindowsAzure.StorageClient;
 using Microsoft.WindowsAzure;
 using System.Configuration;
+using System.Text;
+using System.Net;
 
 namespace AuctioNUS.WebUI.Controllers
 {
@@ -36,12 +38,22 @@ namespace AuctioNUS.WebUI.Controllers
 
         public ActionResult listDeals()
         {  
-            //var response["status"] = "success";
-            //var response["deals"] = 
+           
             JavaScriptSerializer serializer = new JavaScriptSerializer();
             var result = new Dictionary<string, object>();
             result.Add("status", "success");
             result.Add("deals", _dealRepo.Deals);
+
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
+        public ActionResult listDealsForUser(int userID)
+        {
+            var deals = _dealRepo.Deals.Where(d => d.UserID == userID);
+
+            JavaScriptSerializer serializer = new JavaScriptSerializer();
+            var result = new Dictionary<string, object>();
+            result.Add("status", "success");
+            result.Add("deals", deals);
 
             return Json(result, JsonRequestBehavior.AllowGet);
         }
@@ -97,6 +109,18 @@ namespace AuctioNUS.WebUI.Controllers
             return Json(result, JsonRequestBehavior.AllowGet);
         }
 
+        public ActionResult deleteDeal(int dealID)
+        {
+            Deal deal = _dealRepo.Deals.FirstOrDefault(d => d.DealID == dealID);
+            _dealRepo.deleteDeal(deal);
+
+            var result = new Dictionary<string, object>();
+            result.Add("status", "success");
+
+            return Json(result, JsonRequestBehavior.AllowGet);
+
+        }
+
         public ActionResult getTopbid(int dealID)
         {
             Bid bid = _bidRepo.Bids.OrderByDescending(b => b.DealID == dealID).First();
@@ -122,6 +146,44 @@ namespace AuctioNUS.WebUI.Controllers
             
             return Json(result, JsonRequestBehavior.AllowGet);
         }
+
+
+        public String SendNotification()
+    {
+        String DeviceID = "";
+
+        DeviceID = "APA91bHQ90Zncx2rTqyvnsVaP25jCZl6GRDhdvW_36-CWKpGeKwIWTrroFexLJWRTk1Mepgx4kiMLJPSiYBfSiW23F5JMwpRd0ti2gr-bPBi9e-c-1b3_AHmnlerx3MP3p_nmq7OumB_trCrzkTeWTjj4uhDzxzBfHkrMY-64cnxetqA90YiJ3g";
+ 
+        WebRequest tRequest;
+        tRequest = WebRequest.Create("https://android.googleapis.com/gcm/send");
+        tRequest.Method = "post";
+        tRequest.ContentType = "application/x-www-form-urlencoded";
+        tRequest.Headers.Add(string.Format("Authorization: key={0}", "AIzaSyDk7TM2iSpRUFA8waKweAyADVvOuYgnv1w"));
+ 
+        String collaspeKey = Guid.NewGuid().ToString("n");
+        //String postData=string.Format("registration_id={0}&data.payload={1}&collapse_key={2}", DeviceID, "Pickup Message", collaspeKey);
+        String postData = string.Format("registration_id={0}&data.payload={1}&collapse_key={2}", DeviceID, "this is a test", collaspeKey);
+ 
+        Byte[] byteArray = Encoding.UTF8.GetBytes(postData);
+        tRequest.ContentLength = byteArray.Length;
+ 
+        Stream dataStream = tRequest.GetRequestStream();
+        dataStream.Write(byteArray, 0, byteArray.Length);
+        dataStream.Close();
+ 
+        WebResponse tResponse = tRequest.GetResponse();
+ 
+        dataStream = tResponse.GetResponseStream();
+ 
+        StreamReader tReader = new StreamReader(dataStream);
+ 
+        String sResponseFromServer = tReader.ReadToEnd();
+ 
+        tReader.Close();
+        dataStream.Close();
+        tResponse.Close();
+        return sResponseFromServer;
+    }
 
 
     }

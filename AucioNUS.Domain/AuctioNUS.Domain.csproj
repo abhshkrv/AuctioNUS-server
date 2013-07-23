@@ -73,6 +73,14 @@
     <Compile Include="Migrations\201307182042586_mig3.Designer.cs">
       <DependentUpon>201307182042586_mig3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201307232114403_topbid.cs" />
+    <Compile Include="Migrations\201307232114403_topbid.Designer.cs">
+      <DependentUpon>201307232114403_topbid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307232153385_deviceID.cs" />
+    <Compile Include="Migrations\201307232153385_deviceID.Designer.cs">
+      <DependentUpon>201307232153385_deviceID.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -89,6 +97,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201307182042586_mig3.resx">
       <DependentUpon>201307182042586_mig3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307232114403_topbid.resx">
+      <DependentUpon>201307232114403_topbid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307232153385_deviceID.resx">
+      <DependentUpon>201307232153385_deviceID.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

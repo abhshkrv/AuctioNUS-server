@@ -10,6 +10,7 @@ namespace AuctioNUS.Domain.Abstract
     {
         IQueryable<Deal> Deals { get; }
         void saveDeal(Deal deal);
+        void deleteDeal(Deal deal);
     }
 
     public interface IBidRepository

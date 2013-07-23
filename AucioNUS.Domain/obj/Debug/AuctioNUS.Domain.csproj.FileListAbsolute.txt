@@ -14,3 +14,6 @@ C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS.WebUI\AucioNUS
 C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AuctioNUS.Domain.csproj.GenerateResource.Cache
 C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AucioNUS.Domain.dll
 C:\Users\Abhshkrv\Documents\Visual Studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AucioNUS.Domain.pdb
+C:\Users\Abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AuctioNUS.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AuctioNUS.Domain.Migrations.topbid.resources
+C:\Users\Abhshkrv\documents\visual studio 2012\Projects\AuctioNUS.WebUI\AucioNUS.Domain\obj\Debug\AuctioNUS.Domain.Migrations.deviceID.resources
